@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Final Project Grading Rubric</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About Us</a></li>
+            <li><a href="contact.html">Contact Us</a></li>
+        </ul>
+    </nav>
+
+    <section id="intro">
+        <h1>Welcome to WanderWorld</h1>
+        <p>Discover your next adventure! Whether you’re dreaming of serene beaches or ancient temples, WanderWorld helps you find the perfect travel destination based on your preferences.</p>
+    </section>
+
+    <section id="beach">
+        <h2>Beach Recommendation: Goa, India</h2>
+        <p>Enjoy the sun, sand, and sea at Goa — India’s most famous beach destination known for its vibrant nightlife and stunning sunsets.</p>
+        <div class="gallery">
+            <img src="Images/Beaches-in-Goa-for-Tourists.jpg" alt="Goa Beach">
+            <img src="Images/tropical-sunny-beach-party-sunset.webp" alt="Goa Sunset">
+        </div>
+    </section>
+
+    <section id="temple">
+        <h2>Temple Recommendation: Angkor Wat, Cambodia</h2>
+        <p>Experience the grandeur of Angkor Wat, the world’s largest religious monument, surrounded by lush forests and ancient stone carvings.</p>
+        <div class="gallery">
+            <img src="Images/ankor-wat-977693_1280-1.jpeg" alt="angkor wat temple">
+            <img src="Images/istockphoto-157579910-1024x1024.jpg" alt="angkor wat reflection">
+        </div>
+    </section>
+
+    <section id="country">
+        <h2>Find Recommendations by Country</h2>
+        <label for="countrySelect">Choose a country:</label>
+        <select id="countrySelect">
+            <option value="">--Select--</option>
+            <option value="india">India</option>
+            <option value="japan">Japan</option>
+            <option value="france">France</option>
+        </select>
+
+        <div id="recommendation" class="gallery"></div>
+    </section>
+</body>
+</html>
